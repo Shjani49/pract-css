@@ -1,3 +1,4 @@
+/* Container Styles */
 body{
     display:flex;
     justify-content: center;
@@ -6,6 +7,7 @@ body>#container
 {
     width:960px;
 }
+/* Header and Footer Styles */
 header,footer{
     background-color: aqua;
     display:flex;
@@ -13,16 +15,18 @@ header,footer{
 
 }
 header nav ul{
-    list-style:none;
-    padding:0;
+    
     display:flex;
     justify-content: space-between;
     width:250px;
 }
 footer nav ul{
-    list-style:none;
-    padding:0;
+    
     display:flex;
     justify-content: space-between;
     width:250px;
+}
+/* Main Styles */
+main{
+    background-color: blueviolet;
 }
