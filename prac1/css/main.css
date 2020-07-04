@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    font-size: 72px;
+    text-decoration: none;
+    color:black;
+    
+}
+main img
+{
+    width: 100%;
+}
+main article, main aside{
+    padding: 10px;
+}
+main article h1{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+main aside h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+main p{
+    line-height:20px;
+    text-indent: 24px;
+    margin: 8px 0;
+}
